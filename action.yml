@@ -1,0 +1,7 @@
+name: local-act
+description: local composite action
+runs:
+  using: composite
+  steps:
+    - run: echo "ACTYML-VERSION=BENIGN-OWNER-AUTHORED"
+      shell: bash
